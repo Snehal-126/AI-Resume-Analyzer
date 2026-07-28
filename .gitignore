@@ -1,13 +1,16 @@
+# Virtual Environment
 venv/
+
+# Python
 __pycache__/
 *.pyc
 
-models/
+# VS Code
+.vscode/
 
-.env
-
-.ipynb_checkpoints/
-
+# OS files
 .DS_Store
-
 Thumbs.db
+
+# Models
+models/
