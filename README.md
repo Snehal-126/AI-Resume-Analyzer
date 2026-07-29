@@ -1,22 +1,89 @@
-# AI Resume Analyzer
+# 📄 AI Resume Analyzer
 
-A Python-based AI Resume Analyzer built using
+A modern AI-powered Resume Analyzer built using **Python**, **Natural Language Processing (NLP)** and **Machine Learning**.
 
-- Python
-- Streamlit
-- NLP
-- Machine Learning
-- Scikit-learn
-- spaCy
+It helps job seekers analyse their resumes against a Job Description by extracting skills, calculating resume similarity, estimating an ATS score, generating a PDF report, and storing previous analyses.
 
-## Features
+---
 
-- Resume Upload
-- Resume Parsing
-- Resume Score
-- ATS Score
-- Skill Extraction
-- Job Matching
-- Resume Recommendations
+## 🚀 Features
 
-Developed as a portfolio project.
+- 📂 Upload Resume (PDF & DOCX)
+- 📝 Resume Text Extraction
+- 🧹 NLP Text Preprocessing
+- 🛠 Skill Extraction
+- 📊 Resume Match Score
+- 🎯 ATS Score Calculation
+- ✅ Matching Skills
+- ❌ Missing Skills
+- 💡 Resume Improvement Suggestions
+- 📈 Dashboard Charts
+- 📄 Download PDF Report
+- 🗄 Analysis History using SQLite Database
+
+---
+
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Python | Programming Language |
+| Streamlit | Web Application |
+| spaCy | NLP |
+| Scikit-learn | Resume Matching |
+| Pandas | Data Processing |
+| Matplotlib | Charts |
+| SQLite | Database |
+| ReportLab | PDF Report |
+
+---
+
+## 📂 Project Structure
+
+```text
+AI-Resume-Analyzer/
+│
+├── app.py
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── data/
+│   └── skills.csv
+│
+├── screenshots/
+│   ├── home.png
+│   ├── analysis.png
+│   ├── dashboard.png
+│   └── history.png
+│
+├── utils/
+│   ├── parser.py
+│   ├── preprocess.py
+│   ├── skills.py
+│   ├── similarity.py
+│   ├── ats.py
+│   ├── charts.py
+│   ├── database.py
+│   └── pdf_report.py
+```
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+
+![Home](screenshots/home.png)
+
+### 📊 Resume Analysis
+
+![Analysis](screenshots/analysis.png)
+
+### 📈 Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### 🗄 Analysis History
+
+![History](screenshots/history.png)
