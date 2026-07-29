@@ -1,22 +1,25 @@
-# Virtual Environment
-venv/
-
-# Python Cache
+# Python
 __pycache__/
 *.pyc
+
+# Virtual Environment
+venv/
 
 # VS Code
 .vscode/
 
-# Models
-models/
+# SQLite
+*.db
 
-# Environment Variables
+# Streamlit
+.streamlit/
+
+# Environment
 .env
 
-# Jupyter
-.ipynb_checkpoints/
+# Backup Files
+*.backup
 
-# Operating System Files
+# OS Files
 .DS_Store
 Thumbs.db
