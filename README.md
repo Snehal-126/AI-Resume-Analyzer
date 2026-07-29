@@ -227,28 +227,11 @@ Save analysis history using SQLite.
 
 ---
 
-# 📈 Future Improvements
-
-- AI-powered resume suggestions using Large Language Models
-- Support for multiple languages
-- Dark Mode
-- Resume ranking for multiple applicants
-- Company-specific ATS optimisation
-- Keyword highlighting inside resumes
-- Resume score trends over time
-- User authentication
-
----
-
 # 👩‍💻 Author
 
-**Snehal Patil**
+**Snehal Nakadi**
 
-Computer Engineering Student
-
-GitHub:
-
-https://github.com/Snehal-126
+GitHub: https://github.com/Snehal-126
 
 ---
 
