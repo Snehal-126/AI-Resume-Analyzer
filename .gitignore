@@ -26,6 +26,9 @@ Resume_Report.pdf
 # Sample resumes
 resumes/
 
+# Backup code files
+*_backup.py
+
 # OS Files
 .DS_Store
 Thumbs.db
