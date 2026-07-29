@@ -19,6 +19,8 @@ venv/
 
 # Backup Files
 *.backup
+# pdf files
+*.Resume_Report.pdf
 
 # OS Files
 .DS_Store
